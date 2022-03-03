@@ -1,6 +1,6 @@
 # open-source-explorer
 
-<img align="center" width = "300" height = "300" src="img/open-source-explorer.gif"/>
+<img text-align="center" width = "400" height = "300" src="img/open-source-explorer.gif"/>
 
 ## Introduction
 
@@ -8,7 +8,7 @@
 
 ## 内容大纲
 
-<img align="center" src="[img/open-source-explorer.gif](https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/viewer/self/16026009/share/2022-3-3/1646291461/main.svg)"/>
+<img text-align="center" src="https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/viewer/self/16026009/share/2022-3-3/1646291461/main.svg"/>
 
 ## License
 
