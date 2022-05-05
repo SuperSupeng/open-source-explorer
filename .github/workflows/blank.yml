@@ -1,0 +1,79 @@
+- name: Issues Helper
+  # You may pin to the exact commit or the version.
+  # uses: actions-cool/issues-helper@0a220d0ec9d2711f3a181d7e332be32013e68ac8
+  uses: actions-cool/issues-helper@v3.0.0
+  with:
+    # Action name
+    actions: # optional
+    # Github_token
+    token: # optional, default is ${{ github.token }}
+    # The repositorie
+    repo: # optional
+    # Issue-number
+    issue-number: # optional
+    # Comment-id
+    comment-id: # optional
+    # Issue body
+    body: # optional
+    # Issue title
+    title: # optional
+    # Issue assignees
+    assignees: # optional
+    # Issue assignees random to
+    random-to: # optional
+    # Issue labels
+    labels: # optional
+    # Create label name
+    label-name: # optional
+    # Create label color, default #ededed
+    label-color: # optional
+    # Create label description
+    label-desc: # optional
+    # Issue state
+    state: # optional
+    # Body update mode
+    update-mode: # optional
+    # Issue reactions emoji
+    emoji: # optional
+    # Find direction
+    direction: # optional
+    # Find comments query auth
+    comment-auth: # optional
+    # Check use
+    assignee-includes: # optional
+    # Query use
+    body-includes: # optional
+    # Remove some to check title whether empty.
+    title-excludes: # optional
+    # Query use
+    title-includes: # optional
+    # Query use
+    issue-creator: # optional
+    # Query use
+    issue-assignee: # optional
+    # Query use
+    issue-mentioned: # optional
+    # For welcome
+    issue-emoji: # optional
+    # Query use
+    issue-state: # optional
+    # Query use
+    inactive-day: # optional
+    # The reason lock issue
+    lock-reason: # optional
+    # Issue label set use
+    inactive-label: # optional
+    # Query issues exclude labels
+    exclude-labels: # optional
+    # For mark-assigness
+    assign-command: # optional
+    # For mark-duplicate
+    duplicate-command: # optional
+    # For mark-duplicate add labels
+    duplicate-labels: # optional
+    # Only the allow can do. Possible admin, write, read, and none.
+    require-permission: # optional
+    # For remove labels
+    remove-labels: # optional
+    # For mark-duplicate
+    close-issue: # optional
