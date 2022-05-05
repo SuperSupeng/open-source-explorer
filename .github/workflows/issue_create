@@ -1,0 +1,19 @@
+name: Add Assigness
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  issue-welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: welcome
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: 'welcome'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          body: hi @${{ github.event.issue.user.login }}, welcome!
+          labels: 'welcome1, welcome2'
+          assignees: 'SuperSupeng'
+          issue-emoji: '+1, -1, eyes'
